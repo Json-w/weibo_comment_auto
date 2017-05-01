@@ -213,6 +213,7 @@ const createPostOptions = (url, data, referUrl)=> {
   }
 }
 
+login();
 setInterval(()=> {
   search(process.argv[4], formateSearchResult);
-}, 120 * 1000);
+}, 2 * 1000);
